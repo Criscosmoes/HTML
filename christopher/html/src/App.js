@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
         <button>El Face</button>
+        <p>Cris is cool</p>
       </header>
     </div>
   );
