@@ -1,7 +1,16 @@
 import React from "react";
+import "../App.css";
 
 const App = () => {
-  return <div>This is a test</div>;
+  function onButtonClick() {
+    console.log("this button was clicked");
+  }
+
+  return (
+    <div>
+      <button onClick={onButtonClick}>Click me!</button>
+    </div>
+  );
 };
 
 export default App;
